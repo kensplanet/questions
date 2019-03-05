@@ -30,9 +30,9 @@
 * What's jqLite?
  * jqLite is a tiny, API-compatible subset of jQuery that allows Angular to manipulate the DOM in a cross-browser compatible way. jqLite implements only the most commonly needed functionality with the goal of having a very small footprint. 
 * How do you ensure Angular uses jQuery when including them both?
- * To use jQuery , simply ensure it is loaded before the angular.js file.  
+  * To use jQuery , simply ensure it is loaded before the angular.js file.  
 * What are promises and how would you use them?
- * A promise represents the eventual result of an operation. You can use a promise to specify what to do when an operation eventually succeeds or fails. Using $q. (http://www.dwmkerr.com/promises-in-angularjs-the-definitive-guide/) 
+  * A promise represents the eventual result of an operation. You can use a promise to specify what to do when an operation eventually succeeds or fails. Using $q. (http://www.dwmkerr.com/promises-in-angularjs-the-definitive-guide/) 
 * What's the difference between factory/provider/service/value/constant?
  * Factory returns an object. Services do not return an object. Providers have a $.get function() which returns an object. 
 * When would you use each one?
