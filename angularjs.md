@@ -14,8 +14,7 @@
   * $even - Boolean indicating if the element's index is even.
   * $odd - Boolean indicating if the element's index is odd. 
 * How would you filter a list via ng-repeat?
-  * div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 productBorder"
-		ng-repeat="product in products | orderBy:'name' | filter:search" (search is a scope variable)
+  * div ng-repeat="product in products | orderBy:'name' | filter:search" (search is a scope variable)
 * What's the difference between `angular.module('app' , [])` and `angular.module('app')`
   * first one creates a module injecting the dependency modules. second is used to reference the creation of controllers and directives. 
 * What are directives (briefly)? 
