@@ -21,12 +21,12 @@
 * What are directives (briefly)? 
   * At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children. 
 * Why would you use ng-submit instead of ng-click in some cases?
-  * The ngSubmit directive binds to the submit event in the browser, which is fired when a form is submitted. The ngClick directive allows you to specify custom behavior when an element is clicked. (http://stackoverflow.com/questions/23553071/differences-between-ng-submit-and-ng-click) 
+  * The ngSubmit directive binds to the submit event in the browser, which is fired when a form is submitted. The ngClick directive allows you to specify custom behavior when an element is clicked.
 * What's Dependency Injection?
   * Where you do not create the dependencies required instead have the framework provide it to you.
 * Do other frameworks use dependency injection (even if only for internal use)? Answer: yes (React,Ember)
 * How would you inject services and what are the different ways to do so?
- * Passing a dependency as Function Arguments, Passing a dependency as Array Arguments, Passing a dependency using the $inject service (http://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2016/02/28/different-ways-of-injecting-dependency-in-an-angularjs-application.aspx) 
+ * Passing a dependency as Function Arguments, Passing a dependency as Array Arguments, Passing a dependency using the $inject service 
 * What's jqLite?
  * jqLite is a tiny, API-compatible subset of jQuery that allows Angular to manipulate the DOM in a cross-browser compatible way. jqLite implements only the most commonly needed functionality with the goal of having a very small footprint. 
 * How do you ensure Angular uses jQuery when including them both?
