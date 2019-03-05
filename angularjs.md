@@ -23,7 +23,6 @@
   * The ngSubmit directive binds to the submit event in the browser, which is fired when a form is submitted. The ngClick directive allows you to specify custom behavior when an element is clicked.
 * What's Dependency Injection?
   * Where you do not create the dependencies required instead have the framework provide it to you.
-* Do other frameworks use dependency injection (even if only for internal use)? Answer: yes (React,Ember)
 * How would you inject services and what are the different ways to do so?
  * Passing a dependency as Function Arguments, Passing a dependency as Array Arguments, Passing a dependency using the $inject service 
 * What's jqLite?
