@@ -24,7 +24,9 @@
 * What's Dependency Injection?
   * Where you do not create the dependencies required instead have the framework provide it to you.
 * How would you inject services and what are the different ways to do so?
- * Passing a dependency as Function Arguments, Passing a dependency as Array Arguments, Passing a dependency using the $inject service 
+  * Passing a dependency as Function Argument
+  * Passing a dependency as Array Arguments
+  * Passing a dependency using the $inject service 
 * What's jqLite?
  * jqLite is a tiny, API-compatible subset of jQuery that allows Angular to manipulate the DOM in a cross-browser compatible way. jqLite implements only the most commonly needed functionality with the goal of having a very small footprint. 
 * How do you ensure Angular uses jQuery when including them both?
