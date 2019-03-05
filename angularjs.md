@@ -28,7 +28,7 @@
   * Passing a dependency as Array Arguments
   * Passing a dependency using the $inject service 
 * What's jqLite?
- * jqLite is a tiny, API-compatible subset of jQuery that allows Angular to manipulate the DOM in a cross-browser compatible way. jqLite implements only the most commonly needed functionality with the goal of having a very small footprint. 
+  * jqLite is a tiny, API-compatible subset of jQuery that allows Angular to manipulate the DOM in a cross-browser compatible way. jqLite implements only the most commonly needed functionality with the goal of having a very small footprint. 
 * How do you ensure Angular uses jQuery when including them both?
   * To use jQuery , simply ensure it is loaded before the angular.js file.  
 * What are promises and how would you use them?
@@ -47,7 +47,7 @@
  * If ng-if is used on an element, then it won't be included in the DOM, but for ng-show the element is present just its display is none. 
 * What phases are there in angular? Answer: config -> bootstrap -> run
 * Why would you use `.config()` and `.run()` phase?
- * Config block is executed during the provider registration and configuration phase. We can have these as many as we want in the application. Only providers and constants can be injected into configuration blocks and not instances. Run block is executed after the execution of configuration block. It inserts instances and constants but not providers. This block is created using run() method. 
+  * Config block is executed during the provider registration and configuration phase. We can have these as many as we want in the application. Only providers and constants can be injected into configuration blocks and not instances. Run block is executed after the execution of configuration block. It inserts instances and constants but not providers. This block is created using run() method. 
  * (http://codeanalyze.com/Que/Ans/38295/What-is-difference-between-config-and-run-method-in-AngularJS) 
 * What is ng-app and how does angular bootstrap?
  * https://docs.angularjs.org/guide/bootstrap 
