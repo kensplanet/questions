@@ -1,3 +1,6 @@
+<h1>AngularJS</h1>
+
+
 * What's two way binding?
   * Two-way binding means that any data-related changes affecting the model are immediately propagated to the matching view, and that any changes made in the view (say, by the user) are immediately reflected in the underlying model. When app data changes, so does the UI, and conversely.
 * What's ng-model?
